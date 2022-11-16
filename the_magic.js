@@ -6,5 +6,5 @@ const codes = {
 
 function checkPassword() {
     const santa_letter = codes[$('#mailbox').val()];
-    $('#message').val(santa_letter ? santa_letter : 'error');
+    $('#message').html(santa_letter ? santa_letter : 'error');
 }
