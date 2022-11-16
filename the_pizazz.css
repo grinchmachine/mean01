@@ -1,12 +1,10 @@
 body {
-   background-color: #000000,
+   background-color: #000000;
 }
 
 #sendit {
-   
-}
-#sendit:hover {
   background-color: #4CAF50; /* Green */
+  border-radius: 1rem;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -14,4 +12,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+#sendit:hover {
+  background-color: #EE0A06; /* Red */
 }
