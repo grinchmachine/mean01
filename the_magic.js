@@ -1,7 +1,10 @@
+const codes = {
+    'greenMeanie' : 'almost',
+    'Password123' : 'yeh'
+    'chrisms' : 'what are you, a hacker? Try harder'
+};
+
 function checkPassword() {
-    console.log('Ooooo');
-    const passcode = document.getElementById('mailbox').value;
-    console.log('passcode',passcode);
-    const passcodeJQuery = $('#mailbox').val();
-    console.log('try jquery?',passcodeJQuery);
+    const santa_letter = codes[$('#mailbox').val()];
+    $('#message').val(santa_letter ? santa_letter : 'error');
 }
