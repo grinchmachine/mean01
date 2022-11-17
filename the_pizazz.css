@@ -2,7 +2,7 @@ body {
    background-color: #000000;
    color: #ffffff;
    text-align: center;
-   padding-top: 20%;
+   padding-top: 5%;
 }
 
 #message_block, #input_block {
@@ -11,8 +11,11 @@ body {
    margin-right: auto;
 }
 #message_block { 
-   border: 2px solid;
-   margin: auto auto 5rem;
+   padding-right: 2rem;
+   padding-left: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   text-align: start;
 }
 #input_block {
    margin: auto auto 1rem;
