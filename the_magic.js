@@ -23,11 +23,13 @@ function checkPassword() {
         $('#status').fadeIn(20);
         $('#status').fadeOut(500);
         $('#status').fadeIn(500);
+        $('#status').fadeOut(1500);
     } else {
         $('#status').html('<em style="color:#05CB14">Correct</em>');
         $('#status').fadeIn(20);
         $('#status').fadeOut(500);
         $('#status').fadeIn(500);
+        $('#status').fadeOut(1500);
     }
-    $('#message').html(santa_letter ? santa_letter : 'error');
+    $('#message').html(santa_letter ? santa_letter : main_message);
 }
