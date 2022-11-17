@@ -22,6 +22,7 @@ body {
    padding-left: 2rem;
    padding-top: 1rem;
    padding-bottom: 1rem;
+   margin: auto auto 2rem;
    text-align: start;
 }
 #input_block {
