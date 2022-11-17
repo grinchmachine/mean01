@@ -1,5 +1,5 @@
 const main_message = 
-       'HELP!<br>\
+       '<span id="title">HELP!</span><br>\
         Oh good you got the letter! We didn\'t mean any of it.<br>\
         The Grinch has kidnapped us, and he forced us to write that mean letter to you! We hid a secret message in it.<br>\
         We are trapped in the Grinch’s lair, he built a christmas ruining robot called M.E.A.N.1.<br>\
@@ -11,7 +11,7 @@ const main_message =
         Hurry,<br>\
         The REAL Jerbo, Ani and Bilbo';
 const codes = {
-    'greenMeanie' : 'almost',
+    'greenMeanie' : 'That\'s it! ',
     'Password123' : 'yeh',
     'chrisms' : 'what are you, a hacker? Try harder'
 };
