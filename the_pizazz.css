@@ -1,19 +1,38 @@
 body {
    background-color: #000000;
    color: #ffffff;
+   text-align: center;
+   padding-top: 20%;
+}
+
+#message_block {
+   border: 2px solid;
+   max-width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin: auto auto 5rem;
 }
 
 #sendit {
-  background-color: #4CAF50; /* Green */
-  border-radius: 1rem;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+   cursor: pointer;
+   background-color: #4CAF50; /* Green */
+   border-radius: 1rem;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
 }
 #sendit:hover {
-  background-color: #EE0A06; /* Red */
+   background-color: #EE0A06; /* Red */
+}
+
+#mailbox {
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   padding: 15px 32px;
 }
