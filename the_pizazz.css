@@ -5,15 +5,17 @@ body {
    padding-top: 20%;
 }
 
-#message_block {
-   border: 2px solid;
+#message_block, #input_block {
    max-width: 50%;
    margin-left: auto;
    margin-right: auto;
    margin: auto auto 5rem;
 }
+#message_block { 
+   border: 2px solid;
+}
 
-#sendit, mailbox {
+#sendit, #mailbox {
    border-radius: 1rem;
    padding: 15px 32px;
    text-align: center;
