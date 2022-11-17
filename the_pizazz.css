@@ -30,11 +30,3 @@ body {
 #sendit:hover {
    background-color: #EE0A06; /* Red */
 }
-
-#mailbox {
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   padding: 15px 32px;
-}
