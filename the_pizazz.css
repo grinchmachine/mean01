@@ -5,6 +5,12 @@ body {
    padding-top: 5%;
 }
 
+#title {
+   text-align: center;
+   font-size: 24px;
+   color: #05CB14;
+}
+
 #message_block, #input_block {
    max-width: 50%;
    margin-left: auto;
