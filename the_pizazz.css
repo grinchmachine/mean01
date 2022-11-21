@@ -37,6 +37,7 @@ section {
 }
 #input_block {
    margin: auto auto 1rem;
+   padding: 1.5rem;
 }
 
 #sendit, #mailbox {
