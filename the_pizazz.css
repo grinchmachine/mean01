@@ -6,6 +6,12 @@ body {
    padding-top: 5%;
 }
 
+section {
+   background-color: #000;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
 #title {
    text-align: center;
    font-size: 24px;
@@ -13,18 +19,19 @@ body {
 }
 
 #message_block, #input_block {
-   max-width: 50%;
    margin-left: auto;
    margin-right: auto;
 }
 #message_block { 
-   border: 2px solid;
+   border: 2px solid #FAFF00;
    padding-right: 2rem;
    padding-left: 2rem;
    padding-top: 1rem;
    padding-bottom: 1rem;
    margin: auto auto 2rem;
    text-align: start;
+   font-family: monospace;
+   letter-spacing: .17em;
 }
 #input_block {
    margin: auto auto 1rem;
