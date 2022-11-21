@@ -23,7 +23,6 @@ section {
    margin-right: auto;
 }
 #message_block { 
-   border: 2px solid #FAFF00;
    padding-right: 2rem;
    padding-left: 2rem;
    padding-top: 1rem;
@@ -32,6 +31,9 @@ section {
    text-align: start;
    font-family: monospace;
    letter-spacing: .17em;
+}
+#message {
+   border: 2px solid #FAFF00;
 }
 #input_block {
    margin: auto auto 1rem;
