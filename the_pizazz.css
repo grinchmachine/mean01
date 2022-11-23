@@ -26,15 +26,15 @@ section {
 }
 #input_title {
    color: #FAFF00;
+   margin: 0.5rem;
 }
 
 #sendit, #mailbox {
    border-radius: 1rem;
-   padding: 15px 32px;
+   padding: 0.6rem 1rem;
    text-align: center;
    text-decoration: none;
    display: inline-block;
-   font-size: 16px;
 }
 #sendit {
    background-color: #4CAF50; /* Green */
