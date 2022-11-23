@@ -25,7 +25,7 @@ section {
    letter-spacing: .17em;
    font-size: 16px;
 }
-#message {
+.bordered {
    border: 2px solid #FAFF00;
    padding: 1rem;
 }
