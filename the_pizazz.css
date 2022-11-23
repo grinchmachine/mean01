@@ -17,6 +17,12 @@ section {
 #title {
    color: #FAFF00;
    padding: 2rem 1.25rem;
+   img {
+      float: left;
+   }
+   div {
+      padding-left: 3rem;
+   }
 }
 
 .bordered {
