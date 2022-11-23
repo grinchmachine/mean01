@@ -8,16 +8,20 @@ section {
    background-color: #000;
    margin: 1rem;
    padding-top: 0.001rem;
+   text-align: start;
+   font-family: monospace;
+   letter-spacing: .17em;
+   font-size: 16px;
+}
+
+#title {
+   color: #FAFF00;
 }
 
 .bordered {
    border: 2px solid #FAFF00;
    padding: 1rem;
    margin: 1rem;
-   text-align: start;
-   font-family: monospace;
-   letter-spacing: .17em;
-   font-size: 16px;
    background-color: #000;
 }
 
