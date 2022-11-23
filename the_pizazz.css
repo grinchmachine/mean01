@@ -11,27 +11,28 @@ section {
    margin: 2rem 1rem;
 }
 
-#title {
-   text-align: center;
-   font-size: 24px;
-   color: #05CB14;
-}
-
-#message_block { 
+.bordered {
+   border: 2px solid #FAFF00;
    padding: 1rem;
-   margin: auto auto 2rem;
+   margin: 1rem;
    text-align: start;
    font-family: monospace;
    letter-spacing: .17em;
    font-size: 16px;
+   background-color: #000;
 }
-.bordered {
-   border: 2px solid #FAFF00;
-   padding: 1rem;
+
+#message_block {
+   margin: 0rem;
 }
 #input_block {
    margin: auto auto 1rem;
    padding: 1.5rem;
+}
+#title {
+   text-align: center;
+   font-size: 24px;
+   color: #05CB14;
 }
 
 #sendit, #mailbox {
