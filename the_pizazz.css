@@ -24,14 +24,8 @@ section {
 #message_block {
    margin: 0rem;
 }
-#input_block {
-   margin: auto auto 1rem;
-   padding: 1.5rem;
-}
-#title {
-   text-align: center;
-   font-size: 24px;
-   color: #05CB14;
+#input_title {
+   color: #FAFF00;
 }
 
 #sendit, #mailbox {
