@@ -24,6 +24,12 @@ section {
       padding-left: 3rem;
    }
 }
+h1 {
+   font-size: 128px;
+}
+h3 {
+   font-size: 48px;
+}
 
 .bordered {
    border: 2px solid #FAFF00;
@@ -39,12 +45,7 @@ section {
    color: #FAFF00;
    margin: 0.5rem;
 }
-h1 {
-   font-size: 128px;
-}
-h3 {
-   font-size: 48px;
-}
+
 
 #sendit, #mailbox {
    border-radius: 1rem;
