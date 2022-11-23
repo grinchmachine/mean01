@@ -9,6 +9,7 @@ body {
 section {
    background-color: #000;
    margin: 1rem;
+   padding-top: 0.001rem;
 }
 
 .bordered {
