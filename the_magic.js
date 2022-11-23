@@ -19,16 +19,12 @@ const codes = {
 function checkPassword() {
     const santa_letter = codes[$('#mailbox').val()];
     if(!santa_letter) {
-        $('#status').html('<em style="color:#EE0A06"><TT>Incorrect</TT></em>');
+        $('#status').html('<em style="color:#EE0A06">WRONG PASSWORD, SUCKER!</em>');
         $('#status').fadeIn(20);
-        $('#status').fadeOut(500);
-        $('#status').fadeIn(500);
         $('#status').fadeOut(1500);
     } else {
-        $('#status').html('<em style="color:#05CB14"><TT>Correct</TT></em>');
+        $('#status').html('<em style="color:#05CB14">CORRECT</em>');
         $('#status').fadeIn(20);
-        $('#status').fadeOut(500);
-        $('#status').fadeIn(500);
         $('#status').fadeOut(1500);
     }
     $('#message').html(santa_letter ? santa_letter : main_message);
