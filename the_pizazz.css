@@ -17,10 +17,10 @@ section {
 #title {
    color: #FAFF00;
    padding: 2rem 1.25rem;
-   img {
+   > img {
       float: left;
    }
-   div {
+   > div {
       padding-left: 3rem;
    }
 }
