@@ -23,7 +23,9 @@ function checkPassword() {
         $('#status').fadeIn(20);
         setTimeout(()=>{
               $('#status').fadeOut(1500);
+               alert('inside timeout');
         },10000);
+        alert('outside timeout');           
     } else {
         $('#status').html('<span style="color:#05CB14">CORRECT</span>');
         $('#status').fadeIn(20);
