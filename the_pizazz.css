@@ -31,7 +31,7 @@ h1 { font-size: 100px; }
 h3 { font-size: 48px; }
 
 .bordered {
-   border: 2px solid #FAFF00;
+   border: 2px solid #FAFF00; /* Yellow */
    padding: 1rem;
    margin: 1rem;
    background-color: #000;
@@ -62,4 +62,10 @@ h3 { font-size: 48px; }
 }
 #sendit:hover {
    background-color: #EE0A06; /* Red */
+}
+
+@media only screen and (max-width: 600px) {
+   #title {
+      color: #EE0A06;
+   }
 }
