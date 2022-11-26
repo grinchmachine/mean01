@@ -23,15 +23,13 @@ function checkPassword() {
         $('#status').fadeIn(20);
         setTimeout(()=>{
               $('#status').fadeOut(1500);
-               alert('inside timeout');
-        },10000);
-        alert('outside timeout');           
+        },5000);        
     } else {
         $('#status').html('<span style="color:#05CB14">CORRECT</span>');
         $('#status').fadeIn(20);
         setTimeout(()=>{
               $('#status').fadeOut(1500);
-        },10000);
+        },5000);
     }
     $('#message').html(santa_letter ? santa_letter : main_message);
 }
