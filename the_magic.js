@@ -21,12 +21,12 @@ function checkPassword() {
     if(!santa_letter) {
         $('#status').html('<span style="color:#EE0A06">WRONG PASSWORD, SUCKER!</span>');
         $('#status').fadeIn(20);
-        setTimeout(()=>{},5000);
+        setTimeout(()=>{},10000);
         $('#status').fadeOut(1500);
     } else {
         $('#status').html('<span style="color:#05CB14">CORRECT</span>');
         $('#status').fadeIn(20);
-        setTimeout(()=>{},5000);
+        setTimeout(()=>{},10000);
         $('#status').fadeOut(1500);
     }
     $('#message').html(santa_letter ? santa_letter : main_message);
