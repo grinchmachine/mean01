@@ -92,9 +92,14 @@ h3 { font-size: 48px; }
    h3 {
       font-size: 4vw !important;
    }
-   img_div {
+   img {
       width: 7rem !important;
+   }
+   #img_div {
       margin-left: auto !important;
       margin-right: auto !important;
+   }
+   #title_div {
+      padding: 0 !important;
    }
 }
