@@ -30,12 +30,13 @@ function checkPassword() {
        const santa_letter = codes[$('#mailbox').val()];
        flashMsg(santa_letter);
        $('#message').html(santa_letter ? santa_letter : main_message);
+       $('#message').addClass('typed');
        if(santa_letter == 'greenMeanie') {
-              $('extra').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>');
-       } else if (santa_letter == 'Password123') {
               
+       } else if (santa_letter == 'Password123') {
+              $('extra').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>');
+       } else {
+              $('#message').removeClass('typed');
        }
-           
-        
     }
 }
