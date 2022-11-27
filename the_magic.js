@@ -19,7 +19,7 @@ const codes = {
 function flashMsg(status) {
        let msg = status ? 'CORRECT' : 'WRONG PASSWORD, SUCKER!';
        let colour = status ? '#05CB14' : ':#EE0A06';
-       $('#status').html(`<span style="${colour}">${msg}</span>`);
+       $('#status').html(`<span style="color: ${colour}">${msg}</span>`);
        $('#status').fadeIn(20);
        setTimeout(()=>{
               $('#status').fadeOut(1500);
@@ -34,7 +34,7 @@ function checkPassword() {
        if(santa_letter == 'greenMeanie') {
               
        } else if (santa_letter == 'Password123') {
-              $('extra').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>');
+              $('#extra').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>');
        } else {
               $('#message').removeClass('typed');
        }
