@@ -96,8 +96,7 @@ h3 { font-size: 48px; }
       width: 7rem !important;
    }
    #img_div {
-      margin-left: auto !important;
-      margin-right: auto !important;
+      text-align: center !important;
    }
    #title_div {
       padding: 0 !important;
