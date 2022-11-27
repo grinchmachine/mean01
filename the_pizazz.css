@@ -69,17 +69,17 @@ h3 { font-size: 48px; }
 
 @media only screen and (max-width: 850px) {
    section {
-      display: block;
+      display: block !important;
    }
    h1 {
-      font-size: 14vw;
+      font-size: 14vw !important;
    }
    h3 {
-      font-size: 4vw;
+      font-size: 4vw !important;
    }
    img_div {
       width: 7rem !important;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: auto !important;
+      margin-right: auto !important;
    }
 }
