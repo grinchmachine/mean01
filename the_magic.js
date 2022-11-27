@@ -38,5 +38,4 @@ function checkPassword() {
        } else {
               $('#message').removeClass('typed');
        }
-    }
 }
