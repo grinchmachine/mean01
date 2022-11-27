@@ -11,7 +11,7 @@ const main_message =
         Hurry,<br>\
         The REAL Jerbo, Ani and Bilbo';
 const codes = {
-    'greenMeanie' : 'That\'s it! ',
+    'greenMeanie' : 'Oh no! It looks like the password has been encrypted! Hurry - it looks like the Grinch got Bilbo!',
     'Password123' : 'yeh',
     'chrisms' : 'what are you, a hacker? Try harder'
 };
