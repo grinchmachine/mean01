@@ -11,7 +11,7 @@ section {
    text-align: start;
    font-family: monospace;
    letter-spacing: .17em;
-   font-size: 16px;
+   font-size: 20px;
 }
 
 #title {
@@ -19,6 +19,9 @@ section {
    padding: 2rem 1.25rem;
    display: flex;
    flex-direction: row;
+}
+#title_div {
+   padding-left: 3rem;
 }
 #img_div {
    margin-top: auto;
@@ -65,10 +68,18 @@ h3 { font-size: 48px; }
 }
 
 @media only screen and (max-width: 850px) {
-   #title {
-      color: #EE0A06 !important;
+   section {
+      display: block;
    }
-   img {
-      width: 50px !important;
+   h1 {
+      font-size: 14vw;
+   }
+   h3 {
+      font-size: 4vw;
+   }
+   img_div {
+      width: 7rem !important;
+      margin-left: auto;
+      margin-right: auto;
    }
 }
