@@ -16,20 +16,26 @@ const codes = {
     'chrisms' : 'what are you, a hacker? Try harder'
 };
 
+function flashMsg(status) {
+       let msg = status ? 'CORRECT' : 'WRONG PASSWORD, SUCKER!';
+       let colour = status ? '#05CB14' : ':#EE0A06';
+       $('#status').html(`<span style="${colour}">${msg}</span>`);
+       $('#status').fadeIn(20);
+       setTimeout(()=>{
+              $('#status').fadeOut(1500);
+       },5000);
+}
+
 function checkPassword() {
-    const santa_letter = codes[$('#mailbox').val()];
-    if(!santa_letter) {
-        $('#status').html('<span style="color:#EE0A06">WRONG PASSWORD, SUCKER!</span>');
-        $('#status').fadeIn(20);
-        setTimeout(()=>{
-              $('#status').fadeOut(1500);
-        },5000);        
-    } else {
-        $('#status').html('<span style="color:#05CB14">CORRECT</span>');
-        $('#status').fadeIn(20);
-        setTimeout(()=>{
-              $('#status').fadeOut(1500);
-        },5000);
+       const santa_letter = codes[$('#mailbox').val()];
+       flashMsg(santa_letter);
+       $('#message').html(santa_letter ? santa_letter : main_message);
+       if(santa_letter == 'greenMeanie') {
+              $('extra').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>');
+       } else if (santa_letter == 'Password123') {
+              
+       }
+           
+        
     }
-    $('#message').html(santa_letter ? santa_letter : main_message);
 }
