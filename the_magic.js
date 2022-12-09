@@ -41,7 +41,7 @@ function checkPassword() {
               alert('password123');
               $('#extra').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
        } else {
-              alert('not the right answer');
+              alert('not the right answer_debug');
               $('#extra_border').fadeOut(20);
               $('#message_block').removeClass('typed');
        }
