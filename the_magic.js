@@ -11,8 +11,8 @@ const main_message =
         Hurry,<br>\
         The REAL Jerbo, Ani and Bilbo';
 const codes = {
-    'greenMeanie' : 'Oh no! It looks like the password has been encrypted! Hurry - it looks like the Grinch got Bilbo!',
-    'Password123' : 'yeh',
+    'greenmeanie' : 'Oh no! It looks like the password has been encrypted! Hurry - the Grinch took Bilbo!',
+    'password123' : '',
     'chrisms' : 'what are you, a hacker? Try harder'
 };
 
@@ -27,15 +27,17 @@ function flashMsg(status) {
 }
 
 function checkPassword() {
-       const santa_letter = codes[$('#mailbox').val()];
+       const response = $('#mailbox').val().trim().toLowerCase();
+       const santa_letter = codes[response];
        console.log('santa_letter:',santa_letter);
        flashMsg(santa_letter);
        $('#message_block').html(santa_letter ? santa_letter : main_message);
        $('#message_block').addClass('typed');
-       if(santa_letter == 'greenMeanie') {
-              
-       } else if (santa_letter == 'Password123') {
-              $('#extra').html('<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1"></iframe>');
+       if(santa_letter == 'greenmeanie') {
+              $('#extra').html('<div style="display:inline-block;text-align:left;width:300px;"><a style="color:#444" href="https://www.jigidi.com/solve/azs8pria/m-e-a-n-01-encryption/?utm_source=em">M.E.A.N.01 Encryption<img style="display:block;border:none;margin:5px 0 0 0;" src="//thumbs.jigidi.com/embed.php?t=m_AZS8PRIA_77" alt="Jigsaw puzzle - M.E.A.N.01 Encryption"></a></div>');
+       } else if (santa_letter == 'password123') {
+              alert('password123')
+              $('#extra').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
        } else {
               $('#message_block').removeClass('typed');
        }
