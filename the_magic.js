@@ -12,8 +12,8 @@ const main_message =
         The REAL Jerbo, Ani and Bilbo';
 const codes = {
     'greenmeanie' : 'Oh no! It looks like the password has been encrypted! Hurry - the Grinch took Bilbo!',
-    'password123' : '',
-    'chrisms' : 'what are you, a hacker? Try harder'
+    'password123' : 'You did it!',
+    'chrisms' : 'What are you, a hacker? Try harder'
 };
 
 function flashMsg(status) {
