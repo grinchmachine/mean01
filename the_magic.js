@@ -41,7 +41,11 @@ function checkPassword() {
               }, 6610);
        } else if (response == 'password123') {
               alert('password123');
-              $('#extra').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              setTimeout(() => {
+                     $('.typed').css("-webkit-animation-play-state", "paused");
+                     $('#extra_border').fadeIn(20);
+                     $('#extra').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              }, 2200);
        } else {
               alert('not the right answer');
               $('#extra_border').fadeOut(20);
