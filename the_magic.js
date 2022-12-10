@@ -43,7 +43,7 @@ function checkPassword() {
               alert('password123_debug_2');
               $('#password_border').fadeOut(20);
               $('#extra_border').fadeIn(20);
-              $('#extra').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              $('#extra').html('<iframe width="100%" height="500" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
        } else {
               alert('not the right answer');
               $('.typed').css("width","100%");
