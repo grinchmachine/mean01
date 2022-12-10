@@ -29,7 +29,7 @@ function flashMsg(status) {
 function checkPassword() {
        const response = $('#mailbox').val().trim().toLowerCase();
        const santa_letter = codes[response];
-       console.log('santa_letter:',santa_letter);
+       console.log('response:',response);
        flashMsg(santa_letter);
        $('#message_block').html(santa_letter ? santa_letter : main_message);
        $('#message_block').addClass('typed');
