@@ -42,7 +42,7 @@ function checkPassword() {
               alert('password123_debug_0.5');
               $('.typed').css("-webkit-animation-play-state", "paused");
               $('#extra_border').fadeIn(20);
-              $('body').html('<iframe width="100vw" height="100vh" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              $('body').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
        } else {
               alert('not the right answer');
               $('#extra_border').fadeOut(20);
