@@ -49,11 +49,11 @@ h3 { font-size: 48px; }
 }
 
 .typed {
-   overflow: hidden;
-   border-right: .15em solid #4CAF50;
-   white-space: nowrap;
-   margin: 0 auto;
-   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+   overflow: hidden !important;
+   border-right: .15em solid #4CAF50 !important;
+   white-space: nowrap !important;
+   margin: 0 auto !important;
+   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite !important;
 }
 /* The typing effect */
 @keyframes typing {
