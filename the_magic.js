@@ -40,7 +40,7 @@ function checkPassword() {
                      $('#message_block').removeClass('typed');
               }, 6610);
        } else if (response == 'password123') {
-              alert('password123_debug_2');
+              alert('password123_debug');
               $('#password_border').fadeOut(20);
               $('#extra_border').fadeIn(20);
               $('#extra').html('<iframe width="100%" height="500" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
