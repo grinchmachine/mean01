@@ -31,12 +31,13 @@ function checkPassword() {
        const santa_letter = codes[response];
        flashMsg(santa_letter);
        $('#message_block').html(santa_letter ? santa_letter : main_message);
-       $('#message_block').addClass('typed');
        if(response == 'greenmeanie') {
               alert('greenmeanie');
+              $('#message_block').addClass('typed');
               setTimeout(()=> {
                      $('#extra_border').fadeIn(20);
                      $('#extra').html('<p style="text-align:center">Solve the puzzle to decrypt the password</p><div style="display:inline-block;text-align:left;width:300px;"><a style="color:#444" href="https://www.jigidi.com/solve/azs8pria/m-e-a-n-01-encryption/?utm_source=em">M.E.A.N.01 Encryption<img style="display:block;border:none;margin:5px 0 0 0;" src="//thumbs.jigidi.com/embed.php?t=m_AZS8PRIA_77" alt="Jigsaw puzzle - M.E.A.N.01 Encryption"></a></div>');
+                     $('#message_block').removeClass('typed');
               }, 6610);
        } else if (response == 'password123') {
               alert('password123_debug');
