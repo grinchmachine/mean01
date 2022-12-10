@@ -43,6 +43,7 @@ function checkPassword() {
               $('.typed').css("-webkit-animation-play-state", "paused");
               $('#extra_border').fadeIn(20);
               $('#extra').html('<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+              $('.ytp-fullscreen-button').click();
        } else {
               alert('not the right answer');
               $('#extra_border').fadeOut(20);
