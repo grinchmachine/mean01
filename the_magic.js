@@ -32,6 +32,7 @@ function checkPassword() {
        flashMsg(santa_letter);
        $('#message_block').html(santa_letter ? santa_letter : main_message);
        if(response == 'greenmeanie') {
+              $('#message_block').focus();
               $('#message_block').addClass('typed');
               setTimeout(()=> {
                      $('#extra_border').fadeIn(20);
