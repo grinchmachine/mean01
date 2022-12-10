@@ -33,6 +33,7 @@ function checkPassword() {
        $('#message_block').html(santa_letter ? santa_letter : main_message);
        if(response == 'greenmeanie') {
               $('#message_block').focus();
+              console.log('focus changed to ',$('#message_block'));
               $('#message_block').addClass('typed');
               setTimeout(()=> {
                      $('#extra_border').fadeIn(20);
