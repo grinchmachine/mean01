@@ -39,7 +39,7 @@ function checkPassword() {
                      $('#extra').html('<p style="text-align:center">Solve the puzzle to decrypt the password</p><div style="display:inline-block;text-align:left;width:300px;"><a style="color:#444" href="https://www.jigidi.com/solve/azs8pria/m-e-a-n-01-encryption/?utm_source=em">M.E.A.N.01 Encryption<img style="display:block;border:none;margin:5px 0 0 0;" src="//thumbs.jigidi.com/embed.php?t=m_AZS8PRIA_77" alt="Jigsaw puzzle - M.E.A.N.01 Encryption"></a></div>');
               }, 6610);
        } else if (response == 'password123') {
-              alert('password123_debug_0.5');
+              alert('password123_debug');
               $('.typed').css("width","12.5%");
               $('#extra_border').fadeIn(20);
               $('#extra').html('<iframe width="560" height="315" src="https://www.youtube.com/embed/dJwSjrIFw8U?autoplay=1&cc_load_policy=1&rel=0&showinfo=0" title="You Did It!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
