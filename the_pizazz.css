@@ -53,7 +53,7 @@ h3 { font-size: 48px; }
    border-right: .15em solid #4CAF50 !important;
    white-space: nowrap !important;
    margin: 0 auto !important;
-   animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite !important;
+   animation: typing 6.5s steps(40, end), blink-caret .75s step-end infinite !important;
 }
 /* The typing effect */
 @keyframes typing {
