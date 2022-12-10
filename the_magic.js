@@ -46,7 +46,7 @@ function checkPassword() {
               setTimeout(()=>{
                      console.log($('.ytp-fullscreen-button'));
                      $('.ytp-fullscreen-button').click();
-              },1200);
+              },8200);
        } else {
               alert('not the right answer');
               $('#extra_border').fadeOut(20);
