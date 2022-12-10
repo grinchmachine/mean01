@@ -31,9 +31,9 @@ function checkPassword() {
        const santa_letter = codes[response];
        flashMsg(santa_letter);
        $('#message_block').html(santa_letter ? santa_letter : main_message);
+       $("html, body").animate({ scrollTop: 0 }, "slow");
        if(response == 'greenmeanie') {
-              $('#message_block').focus();
-              console.log('focus changed to ',$('#message_block'));
+              console.log('They see me scrollin');
               $('#message_block').addClass('typed');
               setTimeout(()=> {
                      $('#extra_border').fadeIn(20);
