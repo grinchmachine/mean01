@@ -27,11 +27,10 @@ function flashMsg(status) {
 }
 
 function checkPassword() {
-       alert('debug');
        const response = $('#mailbox').val().trim().toLowerCase();
        const santa_letter = codes[response];
        flashMsg(santa_letter);
-       $('#message_block').html(santa_letter ? (response == 'greenmeanie' ? `<p style="width:'50%'">${santa_letter}</p>`: santa_letter) : main_message);
+       $('#message_block').html(santa_letter ? santa_letter : main_message);
        if(response == 'greenmeanie') {
               $('#message_block').addClass('typed');
               setTimeout(()=> {
